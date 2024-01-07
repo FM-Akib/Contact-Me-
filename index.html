@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+     <h1 class="contactTitle" id="contactTitle">
+        Contact Me
+     </h1>
+
+     <div class="contactMeArea">
+        <div class="nameDiv">
+        <h4>Name</h4>
+        <input id="name" class="nameField" type="text" placeholder="Name">
+        <button class="add-btn" onclick="NameSubmit()" >Submit</button>
+        <button class="add-btn" onclick="NameDelete()" >Delete</button>
+        </div>
+
+        <div>
+        <h4>Email</h4>
+        <input id="email" class="nameField" type="email" placeholder="example@example.com">
+        <button class="add-btn" onclick="EmailSubmit()"  >Submit</button>
+        <button class="add-btn" onclick="EmailDelete()"  >Delete</button>
+        </div> 
+       
+        <div class="MessageDiv">
+            <div>
+           <h4>Message</h4>
+        <textarea id="message" class="messageField" type="textarea" placeholder="Hi! there! How are you?"></textarea>
+          </div>
+        
+        <div class="MessageDivBtn">
+        <button class="add-btn" onclick="MessageSubmit()">Submit</button>
+        <button class="add-btn" onclick="MessageDelete()">Delete</button>
+        </div>
+        </div> 
+
+      <div>
+        <button class="add-btn send-btn" onclick="SendButton()" >SEND</button>
+        <button class="add-btn reset-btn" onclick="ResetButton()" >RESET</button>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

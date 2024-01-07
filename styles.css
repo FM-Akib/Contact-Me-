@@ -1,0 +1,66 @@
+.contactTitle{
+    font-size:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+    color: crimson;
+}
+.add-btn{
+    height: 40px;
+    width: 100px;
+    background-color: seagreen;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+.nameField{
+    padding: 5px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.contactMeArea{
+    background-color:rgb(192, 252, 222);
+    width: 900px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin:auto;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contactMeArea div{
+    margin-bottom:20px;
+}
+.messageField{
+    min-width: 300px;
+    min-height: 70px;
+    border-radius: 5px;
+padding: 5px;
+}
+.send-btn{
+    margin-right: 20px;
+    background-color: crimson;
+    cursor: pointer;
+
+}
+.reset-btn{
+    margin-left: 20px;
+    background-color: red;
+    cursor: pointer;
+
+}
+.MessageDiv{
+    display: flex;
+    align-items: center;
+}
+.MessageDivBtn{
+    margin-top: 13px;
+    margin-left: 10px;
+}
